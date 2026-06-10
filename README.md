@@ -1,16 +1,68 @@
-# React + Vite
+# 🌐 VicNet — Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal desarrollado con React y Vite. Diseño moderno, elegante y completamente responsive.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://vicnet.netlify.app/
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="1366" height="2537" alt="image" src="https://github.com/user-attachments/assets/ce4dccfb-0b45-411d-80c2-3e0209dfd791" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías
+
+- **React** — librería principal
+- **Vite** — bundler y dev server
+- **CSS puro** — estilos personalizados sin frameworks
+- **Tabler Icons** — iconografía
+
+## 📁 Estructura del proyecto
+
+src/
+├── assets/
+├── components/
+│   ├── header/
+│   │   ├── Header.jsx
+│   │   └── Header.css
+│   ├── about/
+│   │   ├── About.jsx
+│   │   └── About.css
+│   ├── project/
+│   │   ├── Project.jsx
+│   │   └── Project.css
+│   └── footer/
+│       ├── Footer.jsx
+│       └── Footer.css
+└── App.jsx
+
+## ⚙️ Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/Victorstalin64/Mi-Portafolio.git
+
+# Entrar a la carpeta
+cd Mi-Portafolio
+
+# Instalar dependencias
+npm install
+
+# Iniciar en desarrollo
+npm run dev
+```
+
+## 📦 Build para producción
+
+```bash
+npm run build
+```
+
+## 📬 Contacto
+
+- GitHub: [@Victorstalin64](https://github.com/Victorstalin64)
+
+---
+
+Desarrollado por VicNet
